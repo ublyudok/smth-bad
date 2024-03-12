@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+
+#player {
+    width: 20px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    top: 380px;
+    left: 190px;
+}
+
+.cherry {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+}
